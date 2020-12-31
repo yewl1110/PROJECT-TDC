@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/draw_undo"
+        android:icon="@drawable/ic_undo"
+        android:title="@string/undo"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/draw_mode"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/change_mode"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/draw_add"
+        android:icon="@drawable/ic_add"
+        android:title="@string/add"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/draw_confirmation"
+        android:icon="@drawable/ic_done"
+        android:title="@string/confirm"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/draw_save"
+        android:icon="@drawable/ic_save"
+        android:title="@string/save"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/draw_reset"
+        android:icon="@drawable/ic_clear"
+        android:title="@string/reset"
+        app:showAsAction="ifRoom"/>
+</menu>
