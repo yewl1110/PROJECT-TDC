@@ -25,6 +25,11 @@ import java.util.List;
 /**
  * DrawImageView에 생성되는 View
  * BitmapImage 불러온 후 모델링 할 물체를 TouchEvent 이용해 좌표 얻음
+ * DrawQueue 좌표 얻을 때 undo 기능을 위한 queue
+ *           ArrayDeque<Element>, ArrayList<ArrayList<Coordinates>>(X), ArrayList<ArrayList<Coordinates>>(Y)
+ *           Element - bitmap, Coordinates(start), Coordinates(end)
+ * drawCanvas(bitmapDrawable) - drawPath, viewPath - bitmap
+ * matrix는 터치 동작에 대한 값 가짐
  */
 public class DrawImageView extends androidx.appcompat.widget.AppCompatImageView {
     private final int NONE = 0;

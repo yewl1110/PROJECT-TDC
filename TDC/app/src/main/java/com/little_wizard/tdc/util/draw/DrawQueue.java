@@ -10,12 +10,18 @@ import java.util.List;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
+/**
+ * DrawImageView에서 좌표 얻을 때 undo 기능을 위한 queue
+ * Element - Bitmap, Coordinates(start), Coordinates(end)
+ * ArrayDeque<Element> queue; 한개의 작업에서의 이미지 상태, 터치이벤트 시작 좌표, 터치이벤트 끝 좌표
+ * ArrayList<ArrayList<Coordinates>> listX; 한개의 작업에서 얻은 좌표 리스트
+ * ArrayList<ArrayList<Coordinates>> listY; 한개의 작업에서 얻은 좌표 리스트
+ */
 public class DrawQueue {
 
     private class Element {
         private Bitmap bitmap;
-        private Coordinates start;
-        private Coordinates end;
+        private Coordinates start, end;
 
         public Element(Bitmap bitmap, Coordinates start, Coordinates end) {
             this.bitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true);

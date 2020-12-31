@@ -10,7 +10,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1280432e-51e9-4d00-b76b-c57315dbf3d1" name="Default Changelist" comment="" />
+    <list default="true" id="1280432e-51e9-4d00-b76b-c57315dbf3d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/little_wizard/tdc/ui/draw/DrawImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/little_wizard/tdc/ui/draw/DrawImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/little_wizard/tdc/util/draw/DrawQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/little_wizard/tdc/util/draw/DrawQueue.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,11 +199,11 @@
     </state>
     <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609388890361" />
     <state x="2381" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1609135446733" />
-    <state x="1036" y="87" width="1724" height="1026" key="dock-window-1" timestamp="1609388890956">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1953" y="-14" width="1624" height="953" maximized="true" key="dock-window-1" timestamp="1609399505752">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2043" y="-13" width="1601" height="930" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609337427704" />
-    <state x="1036" y="87" width="1724" height="1026" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609388890956" />
+    <state x="1953" y="-14" width="1624" height="953" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609399505752" />
     <state x="1920" y="0" width="1724" height="1026" key="dock-window-2" timestamp="1609388890956">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
